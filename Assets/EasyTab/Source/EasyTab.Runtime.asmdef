@@ -1,6 +1,6 @@
 {
     "name": "EasyTab.Runtime",
-    "rootNamespace": "",
+    "rootNamespace": "EasyTab",
     "references": [
         "Unity.TextMeshPro",
         "Unity.InputSystem"

@@ -36,16 +36,18 @@ public class Enter : MonoBehaviour
                     dropdown.Show();
                     /** The dropdown is marked as open */
                     isOpen = true;
-                    
-                    /** The current value of the dropdown is highlighted and checked */
 
+                    _current = _current.transform.Find("Dropdown List").gameObject;
+                    EventSystem.current.SetSelectedGameObject(_current);
+
+                    /** The current value of the dropdown is highlighted and checked */
                     var easyTabSolver = new EasyTabSolver();
                     /** The value of the last selected dropdown */
                     int value = dropdown.value;
                     /** The next dropdown item is fetched and selected */
                     for (int count = 0; count <= value; count++)
                     {                        
-                        var next = easyTabSolver.GetNext(_current);
+                        var next = easyTabSolver.GetNext(_current, false);
                         if (next && next.TryGetComponent(out Selectable nextSelectable))
                         {
                             nextSelectable.Select();

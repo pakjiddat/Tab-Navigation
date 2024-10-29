@@ -17,7 +17,7 @@ public class ForwardNavigation : MonoBehaviour
         {
             var easyTabSolver = new EasyTabSolver();
             /** The next ui object is fetched */
-            var next = easyTabSolver.GetNext(_current);
+            var next = easyTabSolver.GetNext(_current, false);
             if (next && next.TryGetComponent(out Selectable nextSelectable))
                 /** The next ui object is selected */
                 nextSelectable.Select();

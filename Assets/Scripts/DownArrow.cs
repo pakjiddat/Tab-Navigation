@@ -31,7 +31,7 @@ public class DownArrow : MonoBehaviour
             }
             /** The next toggle item is fetched and selected */
             var easyTabSolver = new EasyTabSolver();
-            var next = easyTabSolver.GetNext(_current);
+            var next = easyTabSolver.GetNext(_current, false);
             if (next && next.TryGetComponent(out Selectable nextSelectable))
             {
                 nextSelectable.Select();
