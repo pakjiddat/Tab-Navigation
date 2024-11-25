@@ -47,7 +47,7 @@ By default, the package is automatically embedded in PlayerLoop Unity. It is eno
 2. Click `+` button
 3. Paste url 
     ```
-    https://github.com/dav-sea/EasyTab.git?path=Assets/Package
+    https://github.com/dav-sea/EasyTab.git?path=Assets/EasyTab
     ```
 4. Click `Add` button
 
@@ -145,7 +145,7 @@ Everything is ready! If the installation of the package was successful, then now
 
 🕹️ The ability to independently control navigation through the code
 
-✨ The ability to define additional blocking conditions for the availability of objects [(by decorate default Driver)]((#integration-with-your-tools))
+✨ The ability to define additional blocking conditions for the availability of objects [(by decorate default Driver)](#integration-with-your-tools)
 
 # Configuration
 The package provides several configuration levels: `EasyTab` (component), `EasyTabIntegration`, `EasyTabSolver`

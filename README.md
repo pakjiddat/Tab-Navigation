@@ -1,6 +1,10 @@
 # Tab-Navigation
 Sample Unity application demonstrating how to navigate text boxes and drop downs using buttons
 
+## Screenshot
+
+![Screenshot](screenshot.png "Application Screenshot")
+
 ## To use Tab Navigation:
 
 - Go to [EasyTab Unity package release page](https://github.com/dav-sea/EasyTab/releases). Download the Unity Package file. e.g EasyTab-1.3.1.unitypackage
