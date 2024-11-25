@@ -3,7 +3,8 @@ Sample Unity application demonstrating how to navigate text boxes and drop downs
 
 ## To use Tab Navigation:
 
-- Install EasyTab Unity package (right click Assets. import package -> custom package)
+- Go to [EasyTab Unity package release page](https://github.com/dav-sea/EasyTab/releases). Download the Unity Package file. e.g EasyTab-1.3.1.unitypackage
+- Import the Unity Package file. (right click Assets. import package -> custom package)
 - Create Scripts folder and import the files: CustomDropdown, DownArrow, Enter, ForwardNavigation, ReverseNavigation and UpArrow
 - Set input field that should have focus at the start. This can be done by clicking on EventSystem and then dragging the input field over the "First Selected" property
 - Attach EasyTab script to all navigation buttons. Set "Selectable Recognition" property to "As not selectable"
